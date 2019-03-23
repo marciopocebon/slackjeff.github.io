@@ -1,0 +1,101 @@
+/*
+© Criado por Jefferson Rocha .
+Se for utilizar mantenha os créditos.
+*/
+
+
+
+@font-face{
+    font-family: IBMPlexSerif-Light;
+    src: url('fonts/IBMPlexSerif-Light.ttf');
+}
+@font-face{
+    font-family: Lato-Light;
+    src: url('fonts/Lato-Light.ttf');
+}
+
+@font-face{
+    font-family: Times-New.Roman;
+    src: url('fonts/Times-New.Roman.ttf');
+}
+
+body {background-color: black;font-size: 1.3em; color: #00ff00; font-family: courier new;margin: 1em auto;max-width: 44em}
+.coluna{background-color: #393939; color: #06ff00; text-align: center;}
+footer{margin-top: 10%; text-align: justify; color: #00ff00;}
+hr{border: 1px dashed; color: #333; }
+h1{background-color: #292929; color: #00ff00; font-size: 1.4em;}
+.cabecalho{background-color: black; color: #00ff00; font-size: 1.4em;}
+h4{font-size: 1.5em ;color: #08aa00; }
+.hrblog{margin-bottom: 6%;}
+.hrhowto{margin-top: 7%; margin-bottom: 7%;}
+#copyright{color: #8d8d8d; text-align: center;}
+.imgroda{max-width: 3%; padding: 0.3em; margin-left: auto; margin-right: auto; position: relative; left: 
+36%;}
+.imgs{width: 100%;}
+#blog li{padding: 4px;}
+/*------LINKS DO MENU------*/
+nav ul{list-style: none; padding: 10px;}
+nav li{padding: 4px;}
+/*-----------LINKS------------*/
+a:link{background-color: black; color: #00ff00; padding: 1px;}
+a:visited{color: #00ff00;}
+.photo{float: left;margin-right: 15px;}
+.descricao{padding-bottom: 30px;}
+
+/*---------IMGS-------------*/
+.logo-img{width: 14%;}
+
+/*-- Para paginas de categorias de vídeos --*/
+#videos > ul > li > div.titulo-video{
+    width: 100%; 
+    position: relative;
+}
+/*#videos > ul > li > div.preview > div.thumb-video > figure > a > img{ */
+#videos div.thumb-video img{
+    width: 30%;
+    float: left;
+    margin: 0 0.5em 0.5em 0;
+}
+#videos > ul > li > div.descricao-video{
+    width: 68%; 
+    float: right;
+}
+
+.float-left{
+    float: left !important;
+    margin-bottom: 0.5em;
+}
+
+div.descricao-video > p {
+    margin: 0;
+}
+
+#videos > ul > hr {
+    color: #666666;
+    margin-bottom: 3em;
+}
+
+body.galeria-de-videos, 
+div.titulo-video > a:link, 
+div.titulo-video > a:visited,
+body.galeria-de-videos > h3 > a:link,
+body.galeria-de-videos > h3 > a:visited {
+    background: #000;
+    color:#2aff00;
+
+}
+div.thumb-video >a:link{
+    padding: 0px;
+}
+
+/* Opacity #2 */
+.hover12 {
+    background: #2aff00;
+}
+.hover12 img {
+    opacity: 1;
+}
+.hover12:hover img {
+    opacity: .5;
+}
+
